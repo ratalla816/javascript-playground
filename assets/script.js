@@ -116,10 +116,47 @@ let circumference;
 radius = window.prompt("Enter the radius of a circle");
 radius = Number(radius);
 
-circumference = 2 * pi * radius;
+circumference = 2 * PI * radius;
 
 console.log("The circumference is:", circumference);
 
 
+// MATH
+
+let a = 3.14;
+a = Math.round(a);
+console.log(a);
+
+let b = 3.14;
+b = Math.floor(b);
+console.log(b);
+
+let c = 3.14;
+c = Math.ceil(c);
+console.log(c);
+
+let d = 3.14;
+d = Math.pow(d, 2);
+console.log(d);
+
+let e = 3.14;
+e = Math.sqrt(e);
+console.log(e);
+
+let f = -3.14;
+f = Math.abs(f);
+console.log(f);
+
+let g = -3.14;
+let h = 5; 
+let i = 9; 
+let maximum; 
+let minimum; 
+maximum = Math.max(g, h, i);
+console.log(maximum);
+minimum = Math.min(g, h, i);
+console.log(minimum);
+a = Math.PI; 
+console.log(a); 
 
 
