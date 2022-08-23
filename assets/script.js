@@ -107,6 +107,19 @@ console.log(x, typeof x);
 console.log(y, typeof y);
 console.log(z, typeof z);
 
+// const = a variable that cannot be changed
+
+const PI = 3.14159; // const naming convention should be ALL CAPS
+let radius; 
+let circumference;
+
+radius = window.prompt("Enter the radius of a circle");
+radius = Number(radius);
+
+circumference = 2 * pi * radius;
+
+console.log("The circumference is:", circumference);
+
 
 
 
