@@ -34,3 +34,37 @@ console.log("enrolled:", student);
 document.getElementById("p1").innerHTML = "hello " + firstName;
 document.getElementById("p2").innerHTML = "you are " + age + " years old";
 document.getElementById("p3").innerHTML = "enrolled: " + student;
+
+/*
+arithmetic expressions are a combination of the following:
+operands (values, variables, etc.) 
+operators (+ - * / %)
+that can be evaluated to a value
+*/
+
+let students = 20; 
+
+// students = students + 1; 
+// students = students - 1;
+// students = students * 2;
+// students = students / 2;
+// let extraStudents = students % 3; 
+
+students += 1; // augmented assignment operator
+students -= 1
+students *= 2
+students /= 1
+
+// console.log(extraStudents);
+console.log(students);
+
+let result = (1 + 2) * (3 + 4); //Please Excuse My Dear Aunt Sally
+
+console.log(result);
+
+// How to accept user input
+
+// Using a window prompt
+
+// Using an HTML textbox
+
