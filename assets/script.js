@@ -1,8 +1,8 @@
-alert("live to code, code to live");
+// alert("live to code, code to live");
 
 console.log("code to live?");
 
-window.alert("git push, get paid")
+// window.alert("git push, get paid")
 
 /*
 
@@ -22,17 +22,17 @@ Multi-line comment
 
 let firstName = "Rob"; //string
 // let age = "21"; //string (concatenated - age will show 211)
-let age = 21; //number
+// let age = 21; //number
 let student = true; //boolean
 
-age = age + 1;
+// age = age + 1;
 
 console.log("hello", firstName);
-console.log("you are", age);
+// console.log("you are", age);
 console.log("enrolled:", student);
 
 document.getElementById("p1").innerHTML = "hello " + firstName;
-document.getElementById("p2").innerHTML = "you are " + age + " years old";
+// document.getElementById("p2").innerHTML = "you are " + age + " years old";
 document.getElementById("p3").innerHTML = "enrolled: " + student;
 
 /*
@@ -66,5 +66,47 @@ console.log(result);
 
 // Using a window prompt
 
+// let username = window.prompt("What's your name?");
+// console.log(username);
+
+
 // Using an HTML textbox
+let username;
+
+document.getElementById("myButton").onclick = function() {
+
+    username = document.getElementById("myText").value;
+    console.log(username);
+    document.getElementById("myLabel").innerHTML = "Hello " + username;
+};
+
+// Type Conversion = change the datatype of a value to another
+// (strings, numbers, booleans)
+
+let age = window.prompt("How old are you?");
+
+// age += 1; WRONG - concatination will only add the number to end of the string
+
+// We need to use a number constructor 
+console.log(typeof age); // tells us the data type of the variable
+age = Number(age);
+console.log(typeof age);
+age += 1; 
+
+console.log("Happy Birthday! You are", age, "years old");
+
+let x; 
+let y; 
+let z; 
+
+x = Number("3.14");
+y = String(3.14);
+// z = Boolean(3.14); //True 
+z = Boolean(""); //False
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);
+
+
+
 
